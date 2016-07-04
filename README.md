@@ -1,6 +1,6 @@
 # Node-with-YQL
 
-Get Weather Details of any City using Yahoo Weather API's with Node js.
+Get Weather Details of any City using Yahoo Weather API's with Node js using async and request modules.
 
 Steps to run:
 
