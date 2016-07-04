@@ -31,7 +31,6 @@ app.get('/temprature', function(req, res, next) {
         });
     }, function(err, results) {
         if (!err) {
-            console.log(results);
             var data = [];
             for (var i = 0; i < results.length; i++) {
                 var city_output = JSON.parse(results[i]).query.results.channel.location.city;
